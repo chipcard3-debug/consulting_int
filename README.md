@@ -24,8 +24,10 @@
 운영 AI 분석을 사용하려면 Vercel 프로젝트 환경변수에 아래 값을 설정합니다.
 
 ```text
+GOOGLE_API_KEY=<server-side only>
+# 또는 Vercel에서 OPENAI_API_KEY를 사용할 수 있습니다.
 OPENAI_API_KEY=<server-side only>
-AI_MODEL=gpt-5.5
+AI_MODEL=gemini-2.0-flash
 ```
 
 실제 API 키는 저장소에 커밋하지 않습니다.
